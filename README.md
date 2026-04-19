@@ -15,11 +15,5 @@
 - 使用 **Reranker 模型** 提升答案精準度
 
 ## 系統架構圖
+![系統架構圖](architecture.png)
 
-```mermaid
-flowchart TD
-    A[Data Ingestion (ETL)] --> B[Embedding Model: BGE-M3]
-    B --> C[Vector Database: pgvector]
-    C --> D[Retrieval Strategy: Parent-Document Retrieval + Hybrid Search]
-    D --> E[Reranker 模型]
-    E --> F[最終答案輸出]
