@@ -17,3 +17,7 @@
 ## 系統架構圖
 ![系統架構圖](architecture.png)
 
+## 文件連結
+- [規格說明書 (Specs)](specs.md)
+- [技術白皮書 (Whitepaper)](whitepaper.md)
+- [ADR 記錄](adr)
