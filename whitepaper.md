@@ -28,7 +28,9 @@ Reranker：提升答案排序準確度
 L0 基礎層 (Foundation)：軍事教範、戰術教材，定義術語與本體。
 
 L1 結構化層 (RAG Core)：兵種編制、戰術原則，切分為知識原子。
+
 L2 文獻層 (Evidence)：戰史案例、戰役資料，補足理論脈絡。
+
 L3 應用層 (Application)：模擬演習、戰術推演，映射真實場景。
 
 ## 智能切塊策略 (Smart Chunking Strategy)
