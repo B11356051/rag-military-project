@@ -14,6 +14,10 @@
 - Vector Database：pgvector
 - Retrieval Strategy：Hybrid Search + Parent-Document Retrieval
 - Reranker：Cross-encoder 模型
+- Embedding Model：BGE-M3 （詳見 [ADR-002](adr/adr-002.md)）
+- Vector Database：pgvector （詳見 [ADR-001](adr/adr-001.md)）
+- Retrieval Strategy：Hybrid Search + Parent-Document Retrieval （詳見 [ADR-003](adr/adr-003.md)）
+- Reranker：Cross-encoder 模型 （詳見 [ADR-004](adr/adr-004.md)）
 
 ## 性能指標
 - Latency ≤ 200ms
@@ -29,3 +33,5 @@
 
 ## 系統架構圖
 ![系統架構圖](architecture.png)
+
+> 更多理論挑戰與創新解法，請參考 [Whitepaper](whitepaper.md)。
