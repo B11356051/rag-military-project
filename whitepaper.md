@@ -14,7 +14,7 @@
 - **Hybrid Search**：結合語義與關鍵字檢索
 - **Reranker**：提升答案排序準確度
 
-本系統的技術選擇已在 [Specs](specs.md) 中定義，並透過 ADR 文件詳細記錄決策過程：
+本系統的技術選擇在 [Specs](specs.md) 中定義，並且透過 ADR 文件詳細記錄決策過程：
 - 向量資料庫 → [ADR-001](adr/adr-001.md)
 - Embedding 模型 → [ADR-002](adr/adr-002.md)
 - 檢索策略 → [ADR-003](adr/adr-003.md)
