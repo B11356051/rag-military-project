@@ -20,4 +20,4 @@
 ## 文件連結
 - [規格說明書 (Specs)](specs.md)
 - [技術白皮書 (Whitepaper)](whitepaper.md)
-- [ADR 記錄](adr)
+- [ADR 記錄](adr/)
