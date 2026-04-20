@@ -95,9 +95,13 @@ LLM 撰寫論述，依據 Stage 1 的硬證據
 
 ## 創新性
 解決 hallucination：透過 Reranker + 知識圖譜驗證，避免生成錯誤戰術結論
+
 冷啟動問題：建立軍事專有名詞詞典（例如 NATO 縮寫、武器代號），確保檢索準確性
 
 ## 系統實作藍圖 (Implementation Roadmap)
 Phase 1 (MVP)：建立基礎戰術知識庫 + pgvector 檢索。
+
 Phase 2 (進階版)：加入反證邏輯、冷啟動詞典。
+
 Phase 3 (研究級)：引入知識圖譜、多模態檢索（文字 + 圖像）。
+
