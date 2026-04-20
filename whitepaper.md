@@ -59,9 +59,13 @@ L3 應用層 (Application)：模擬演習、戰術推演，映射真實場景。
 
 ## 混合檢索管線 (Hybrid Retrieval Pipeline)
 查詢正規化 (Normalize)
+
 結構化過濾 (Filter)
+
 混合召回 (Hybrid Retrieve: Vector + FTS + Graph)
+
 深度重排 (Rerank)
+
 證據裝配 (Assemble)
 
 ## 兩階段推理生成 (Two-Stage Reasoning Generation)
@@ -69,16 +73,19 @@ Stage 1：候選戰術生成
 僅輸出候選列表
 支持 / 反證特徵
 尚缺資訊
+
 Stage 2：證據化回答生成
 LLM 撰寫論述，依據 Stage 1 的硬證據
 不武斷給出「必勝方案」
 
 ## 安全治理矩陣 (Safety & Governance Matrix)
 必須執行：標示不確定性、提供來源引用。
+
 絕對禁止：編造戰史、斷言戰術必勝。
 
 ## 未來改進方向
 引入知識圖譜，提升戰術邏輯驗證能力
+
 增加多模態檢索 (文字 + 圖像)，讓系統能同時處理文本與戰術圖像資料，提升查詢的多樣性與解釋力
 
 ## 理論深度
