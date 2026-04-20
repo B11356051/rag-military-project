@@ -35,15 +35,21 @@ L3 應用層 (Application)：模擬演習、戰術推演，映射真實場景。
 
 ## 智能切塊策略 (Smart Chunking Strategy)
 錯誤示範：固定長度切塊，容易斷裂戰術邏輯。
+
 最佳實踐：
 最小原子 (Atomic)：單一戰術術語或兵種配置。
+
 戰術單元 (Tactical Unit)：完整的戰術步驟或防禦方案。
+
 案例單元 (Case)：完整戰役案例，含背景與結果。
 
 ## 檢索能力矩陣 (Retrieval Capability Matrix)
 型態 A：戰術案例查詢（如「某戰役的防禦部署」）。
+
 型態 B：術語查詢（如「什麼是縱深防禦？」）。
+
 型態 C：比較查詢（如「游擊戰 vs 正規戰」）。
+
 型態 D：經典佐證（如「孫子兵法對奇襲的描述」）。
 
 ## 混合檢索管線 (Hybrid Retrieval Pipeline)
